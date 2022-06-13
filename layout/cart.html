@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/ads.css">
+    <link rel="stylesheet" href="../assets/css/product.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>C&T Phone</title>
+</head>
+<body>
+    <!-- Start Menu Header -->
+    <section class="header">
+        <header class="menu-header">
+            <div class="menu-header-top">
+                <nav class="menu-nav-top">
+                    <div class="menu-container-nav">
+                        <div class="menu-container">
+                            <div class="logo-shop">
+                                <a href="../layout/home.html" title="C&T Phone">
+                                    <img src="https://vanphongxanh.vn/wp-content/uploads/2022/03/logo-social.png" alt="">
+                                </a>
+                            </div>
+                            <form class="form-search">
+                                <div class="box-search">
+                                    <input type="text" placeholder="Bạn cần tìm gì ?">
+                                    <a href=""><i class="fas fa-search"></i></a>
+                                </div>
+                            </form>
+                            <div class="box-about">
+                                <a class="phone" href="tel:039632738">
+                                    <div class="icon-phone">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="content-phone">
+                                        <p>Gọi mua hàng</p>
+                                        <strong>1800.1008</strong>
+                                    </div>
+                                </a>
+                                <a class="shipping" href="../layout/order-search.html">
+                                    <div class="icon-shipping">
+                                        <i class='fas fa-shipping-fast'></i>
+                                    </div>
+                                    <div class="content-shipping">
+                                        <p>Tra cứu<br>
+                                        đơn hàng</p>
+                                    </div>
+                                </a>
+                                <a class="cart" href="../layout/cart.html">
+                                    <div class="icon-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="content-cart">
+                                        <p>Giỏ<br>
+                                        hàng</p>
+                                    </div>
+                                </a>
+                                <a class="user" href="../layout/login.html">
+                                    <div class="icon-user">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="content-user">
+                                        <p>Đăng nhập/<br>
+                                        Đăng ký</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-header-main">
+                <nav class="menu-nav-main">
+                    <div class="menu-main-container">
+                        <a href="">
+                            <div class="menu-phone">
+                                <div class="nav-phone">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Điện thoại
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-phone">
+                                    <a href="">
+                                        <div class="apple">
+                                            <div class="item-apple">
+                                                Apple <i class="fab fa-apple"></i> <i class="fas fa-angle-right"></i>
+                                            </div>
+                                            <!-- <div class="content-apple">
+                                                <a href="">13 Series</a>
+                                                <a href="">13 Series</a>
+                                                <a href="">13 Series</a>
+                                            </div> -->
+                                        </div>
+                                    </a>
+                                    <a href="">SamSung</a>
+                                    <a href="">Xiaomi <span class="iconify" data-icon="simple-icons:xiaomi"></span></a>
+                                    <a href="">Oppo</a>
+                                    <a href="">Hãng khác...</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-accessory">
+                                <div class="nav-accessory">
+                                    <i class="fas fa-headphones"></i>
+                                    Phụ kiện
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-accessory">
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Sạc - cáp</a>
+                                    <a href="">Cường lực điện thoại</a>
+                                    <a href="">Ốp lưng điện thoại</a>
+                                    <a href="">Giá đỡ điện thoại</a>
+                                    <a href="">Tai nghe</a>
+                                    <a href="">Loa</a>
+                                    <a href="">Thẻ nhớ, USB</a>
+                                    <a href="">Khác...</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-secondhand">
+                                <div class="nav-secondhand">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Hàng cũ
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-secondhand">
+                                    <a href="">Điện thoại cũ</a>
+                                    <a href="">Phụ kiện cũ</a>
+                                    <a href="">Loa - Tai nghe cũ</a>
+                                    <a href="">Khác...</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-sale">
+                                <div class="nav-sale">
+                                    <i class="fas fa-percentage"></i>
+                                    Khuyến mãi
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-sale">
+                                    <a href="">0% - 30%</a>
+                                    <a href="">30% - 50%</a>
+                                    <a href="">Trên 50%</a>
+                                    <a href="">Tất cả khuyến mãi</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-installment">
+                                <div class="nav-installment">
+                                    <i class="fas fa-money-bill-alt	"></i>
+                                    Trả góp
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <!-- End Menu Header -->
+
+    <!-- Start Ads -->
+    <section class="main-home">
+        <div class="body-cart">
+            <div class="header-cart">
+                <a href="">
+                    <div class="go-back-cart">
+                        <i class="fas fa-angle-left"></i>
+                        <p class="title-back">Trở về</p>
+                    </div>
+                </a>
+                    <p class="title-cart">
+                        Giỏ Hàng
+                    </p>
+            </div>
+            <div class="main-cart">
+                <form action="">
+                    <div class="row">
+                        <div class="container container-cart">
+                            <div class="cart-product">
+                                <div class="cart-product-image">
+                                    <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                </div>
+                                <div class="cart-product-content">
+                                    <div class="cart-product-name">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    <div class="cart-product-price">
+                                        <p class="cart-special-price">29.690.000 ₫</p>
+                                        <p class="cart-old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="cart-product-quantity">
+                                        <label for="tentacles">Chọn số lượng: </label>
+                                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                                    </div>
+                                    <div class="cart-product-description">
+                                        <p class="label-description">Mô tả: </p>
+                                        <p class="content-description">Content mô tả Content mô tả Content mô tả Content mô tả Content mô tả </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="delete-item">
+                                <i class="fas fa-times"></i>
+                            </div> -->
+                        </div>
+                        <div class="container container-cart">
+                            <div class="cart-product">
+                                <div class="cart-product-image">
+                                    <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                </div>
+                                <div class="cart-product-content">
+                                    <div class="cart-product-name">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    <div class="cart-product-price">
+                                        <p class="cart-special-price">29.690.000 ₫</p>
+                                        <p class="cart-old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="cart-product-quantity">
+                                        <label for="tentacles">Chọn số lượng: </label>
+                                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                                    </div>
+                                    <div class="cart-product-description">
+                                        <p class="label-description">Mô tả: </p>
+                                        <p class="content-description">Content mô tả Content mô tả Content mô tả Content mô tả Content mô tả </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="delete-item">
+                                <i class="fas fa-times"></i>
+                            </div> -->
+                        </div>
+                        <div class="container container-payment">
+                            <div class="content-payment">
+                                <p class="label-total">
+                                    Tổng tiền tạm tính:
+                                </p>
+                                <p class="total">
+                                    100.000.000 ₫
+                                </p>
+                            </div>
+                            <div class="content-order">
+                                <a href="../layout/payment.html">
+                                    <div class="button-payment">
+                                        Tiến hành đặt hàng
+                                    </div>
+                                </a>
+                                <a href="../layout/home.html">
+                                    <div class="button-other">
+                                        Chọn thêm sản phẩm khác
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Ads -->
+    <footer>
+        <div class="container footer-ct">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="ul-style">
+                        <li>
+                            <a href="">Lịch sử mua hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Cộng tác bán hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Tìm hiểu về trả góp</a>
+                        </li>
+                        <li>
+                            <a href="">Chính sách bảo hành</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="ul-style">
+                        <li>
+                            <a href="">Giới thiệu cửa hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="">Gửi góp ý, khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="">Đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="ul-style">
+                        <li>
+                            <a href="">Tổng đài hỗ trợ (Miễn phí gọi)</a>
+                        </li>
+                        <li>
+                            <a href="tel:18001234" style="color: blue;">Gọi mua: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                        <li>
+                            <a href=""style="color: blue;">Kỹ thuật: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                        <li>
+                            <a href=""style="color: blue;">Bảo hành: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                        <li>
+                            <a href=""style="color: blue;">Đổi trả: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="ul-style" style="display: inline-flex;">
+                        <li>
+                            <a href="">
+                                <img src="../img/img-bocongthuong.jpg" width="80" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="margin-top: 10px;" src="../img/img-bocongthuong2.jpg" width="80" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="margin-top: 10px;" src="../img/img-aninhmang.png" width="80" alt=""></a>
+                        </li>
+                    </ul>
+
+                    <div class="col">
+                        <p style="font-size:14px;font-weight: 500;">Website đối tác</p>
+                        <ul class="ul-style-2" style="display: inline-flex;">
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bot">
+        <p>@Dev by C & T</p>
+    </div>
+</body>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</html>

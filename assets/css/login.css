@@ -1,0 +1,24 @@
+.main {
+    width: 36% !important;
+}
+
+.form-control {
+    height: 42px !important;
+}
+
+.btn-primary {
+    background: linear-gradient(#f52f32, #e11b1e) !important;
+    border: none !important;
+    padding: 12px !important;
+    width: 100%;
+}
+
+.form-label {
+    margin-bottom: .5rem;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bx {
+    font-size: 24px;
+}

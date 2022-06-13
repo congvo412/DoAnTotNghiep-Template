@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/ads.css">
+    <link rel="stylesheet" href="../assets/css/product.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>C&T Phone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <!-- Start Menu Header -->
+    <section class="header">
+        <header class="menu-header">
+            <div class="menu-header-top">
+                <nav class="menu-nav-top">
+                    <div class="menu-container-nav">
+                        <div class="menu-container">
+                            <div class="logo-shop">
+                                <a href="../layout/home.html" title="C&T Phone">
+                                    <img src="https://vanphongxanh.vn/wp-content/uploads/2022/03/logo-social.png" alt="">
+                                </a>
+                            </div>
+                            <form class="form-search">
+                                <div class="box-search">
+                                    <input type="text" placeholder="Bạn cần tìm gì ?">
+                                    <a href=""><i class="fas fa-search"></i></a>
+                                </div>
+                            </form>
+                            <div class="box-about">
+                                <a class="phone" href="tel:039632738">
+                                    <div class="icon-phone">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div class="content-phone">
+                                        <p>Gọi mua hàng</p>
+                                        <strong>1800.1008</strong>
+                                    </div>
+                                </a>
+                                <a class="shipping" href="../layout/order-search.html">
+                                    <div class="icon-shipping">
+                                        <i class='fas fa-shipping-fast'></i>
+                                    </div>
+                                    <div class="content-shipping">
+                                        <p>Tra cứu<br>
+                                        đơn hàng</p>
+                                    </div>
+                                </a>
+                                <a class="cart" href="../layout/cart.html">
+                                    <div class="icon-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </div>
+                                    <div class="content-cart">
+                                        <p>Giỏ<br>
+                                        hàng</p>
+                                    </div>
+                                </a>
+                                <a class="user" href="../layout/login.html">
+                                    <div class="icon-user">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="content-user">
+                                        <p>Đăng nhập/<br>
+                                        Đăng ký</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-header-main">
+                <nav class="menu-nav-main">
+                    <div class="menu-main-container">
+                        <a href="">
+                            <div class="menu-phone">
+                                <div class="nav-phone">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Điện thoại
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-phone">
+                                    <a href="">
+                                        <div class="apple">
+                                            <div class="item-apple">
+                                                Apple <i class="fab fa-apple"></i> <i class="fas fa-angle-right"></i>
+                                            </div>
+                                            <!-- <div class="content-apple">
+                                                <a href="">13 Series</a>
+                                                <a href="">13 Series</a>
+                                                <a href="">13 Series</a>
+                                            </div> -->
+                                        </div>
+                                    </a>
+                                    <a href="">SamSung</a>
+                                    <a href="">Xiaomi <span class="iconify" data-icon="simple-icons:xiaomi"></span></a>
+                                    <a href="">Oppo</a>
+                                    <a href="">Hãng khác...</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-accessory">
+                                <div class="nav-accessory">
+                                    <i class="fas fa-headphones"></i>
+                                    Phụ kiện
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-accessory">
+                                    <a href="">Sạc dự phòng</a>
+                                    <a href="">Sạc - cáp</a>
+                                    <a href="">Cường lực điện thoại</a>
+                                    <a href="">Ốp lưng điện thoại</a>
+                                    <a href="">Giá đỡ điện thoại</a>
+                                    <a href="">Tai nghe</a>
+                                    <a href="">Loa</a>
+                                    <a href="">Thẻ nhớ, USB</a>
+                                    <a href="">Khác...</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-secondhand">
+                                <div class="nav-secondhand">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Hàng cũ
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-secondhand">
+                                    <a href="">Điện thoại cũ</a>
+                                    <a href="">Phụ kiện cũ</a>
+                                    <a href="">Loa - Tai nghe cũ</a>
+                                    <a href="">Khác...</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-sale">
+                                <div class="nav-sale">
+                                    <i class="fas fa-percentage"></i>
+                                    Khuyến mãi
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                                <div class="content-nav-sale">
+                                    <a href="">0% - 30%</a>
+                                    <a href="">30% - 50%</a>
+                                    <a href="">Trên 50%</a>
+                                    <a href="">Tất cả khuyến mãi</a>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="menu-installment">
+                                <div class="nav-installment">
+                                    <i class="fas fa-money-bill-alt	"></i>
+                                    Trả góp
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <!-- End Menu Header -->
+    <section class="main-home">
+        <!-- Start Ads -->
+        <div class="container ads">
+            <div class="row ads-row">
+                <div class="col-md-8 ads-large">
+                        <div class="slides">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <a href="">
+                                            <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/5/4/637872228198270887_F-H1_800x300.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="">
+                                            <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/4/30/637869584227387740_F_H1_800x300.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="">
+                                            <img src="https://images.fpt.shop/unsafe/fit-in/800x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/5/3/637872181380550120_F-H1_800x300.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-4 ads-small">
+                    <div class="container ads-small-top">
+                        <a href="">
+                            <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/A73_2.png" style="object-fit: fill;" alt="">
+                        </a>
+                    </div>
+                    <div class="container ads-small-bottom">
+                        <a href="">
+                            <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/Asus_Zenbook.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Ads -->
+
+        <div class="box-quickfilter container-fluid">
+            <div class="lst-quickfilter">
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/vivo-logo-220-220x48-3.png" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/Realme42-b_37.png" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/Nokia42-b_21.jpg" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/Itel42-b_54.jpg" width="100" class="no-text">
+                </a>
+                <a href="" class="lst-box-items bd-radius">
+                    <img src="https://cdn.tgdd.vn/Brand/1/Masstel42-b_0.png" width="100" class="no-text">
+                </a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="trending">
+                        <h4>XU HƯỚNG MUA SẮM</h4>
+                       <ul>
+                           <li>
+                               <a href="#">
+                                   <img src="https://cdn.tgdd.vn/2022/04/banner/Frame49172-280x235.png" alt="#">
+                                   <span>Điện thoại</span>
+                                   <strong>Galaxy A Series 2022</strong>
+                               </a>
+                           </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://cdn.tgdd.vn/2022/04/banner/phukien-280x235.png" alt="#">
+                                <span>Tai nghe không dây</span>
+                                <strong>Giảm đến 50%</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://cdn.tgdd.vn/2022/04/banner/phukien-280x235.png" alt="#">
+                                <span>Tai nghe không dây</span>
+                                <strong>Giảm đến 50%</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://cdn.tgdd.vn/2022/04/banner/dongho-280x235-1.png" alt="#">
+                                <span>Smartwatch</span>
+                                <strong>Giảm đến 50%</strong>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="product-outstanding">
+                <div class="title-product">
+                    <p class="main-title">SẢN PHẨM NỔI BẬT</p>
+                    <a href=""><p class="extra-title">Xem tất cả</p></a>
+                </div>
+                <div class="list-product">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/i/p/iphone_13-_pro-5_4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">iPhone 13 Pro Max 128GB | Chính hãng VN/A</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-selling">
+                <div class="title-product">
+                    <p class="main-title">SẢN PHẨM BÁN CHẠY</p>
+                    <a href=""><p class="extra-title">Xem tất cả</p></a>
+                </div>
+                <div class="list-product">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="items-product">
+                                <div class="image-product">
+                                    <a href="">
+                                        <img src="https://image.cellphones.com.vn/220x/media/catalog/product/s/m/sm-s908_galaxys22ultra_front_green_211119.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="content-product">
+                                    <a href="">
+                                        <div class="name-product">Samsung Galaxy S22 Ultra (8GB - 128GB)</div>
+                                    </a>
+                                    <div class="price-product">
+                                        <p class="special-price">29.690.000 ₫</p>
+                                        <p class="old-price">34.900.000 ₫</p>
+                                    </div>
+                                    <div class="evaluate">
+                                        <div class="evaluate-star">
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                            <i class="fas fa-star checked"></i>
+                                        </div>
+                                        <div class="evaluate-quantity">
+                                            18 đánh giá
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand-page">
+            <div class="title-brand-page">
+                <p class="main-title">CHUYÊN TRANG THƯƠNG HIỆU</p>
+            </div>
+            <div class="content-brand-page">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="items-brand-page">
+                            <a href="">
+                                <img src="https://cellphones.com.vn/media/icons/banner/banner-sis-apple-homepage.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="items-brand-page">
+                            <a href="">
+                                <img src="https://cellphones.com.vn/media/icons/banner/banner-sis-samsung-homepage.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="items-brand-page">
+                            <a href="">
+                                <img src="https://cellphones.com.vn/media/icons/banner/banner-sis-asus-homepage.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="items-brand-page">
+                            <a href="">
+                                <img src="https://cellphones.com.vn/media/icons/banner/banner-sis-xiaomi-homepage.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-ct">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="ul-style">
+                        <li>
+                            <a href="">Lịch sử mua hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Cộng tác bán hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Tìm hiểu về trả góp</a>
+                        </li>
+                        <li>
+                            <a href="">Chính sách bảo hành</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="ul-style">
+                        <li>
+                            <a href="">Giới thiệu cửa hàng</a>
+                        </li>
+                        <li>
+                            <a href="">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <a href="">Gửi góp ý, khiếu nại</a>
+                        </li>
+                        <li>
+                            <a href="">Đổi trả</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="ul-style">
+                        <li>
+                            <a href="">Tổng đài hỗ trợ (Miễn phí gọi)</a>
+                        </li>
+                        <li>
+                            <a href="tel:18001234" style="color: blue;">Gọi mua: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                        <li>
+                            <a href=""style="color: blue;">Kỹ thuật: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                        <li>
+                            <a href=""style="color: blue;">Bảo hành: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                        <li>
+                            <a href=""style="color: blue;">Đổi trả: 18001234 (7:30 - 22:00)</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="ul-style" style="display: inline-flex;">
+                        <li>
+                            <a href="">
+                                <img src="../img/img-bocongthuong.jpg" width="80" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="margin-top: 10px;" src="../img/img-bocongthuong2.jpg" width="80" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img style="margin-top: 10px;" src="../img/img-aninhmang.png" width="80" alt=""></a>
+                        </li>
+                    </ul>
+
+                    <div class="col">
+                        <p style="font-size:14px;font-weight: 500;">Website đối tác</p>
+                        <ul class="ul-style-2" style="display: inline-flex;">
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/img-dienmayxanh.jpg" width="100" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bot">
+        <p>@Dev by C & T</p>
+    </div>
+</body>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</html>
