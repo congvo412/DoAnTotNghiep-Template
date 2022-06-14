@@ -28,7 +28,7 @@
 .main-payment .container-payment-info-main {
     border: 1px solid #fff;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
     margin-bottom: 20px;
     padding: 10px;
 }
@@ -36,7 +36,7 @@
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 10px 10px;
-    box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
 .customer-info {
     margin-top: 10px;
@@ -99,7 +99,7 @@
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 10px 10px;
-    box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
 .container-payment-info .content-payment-info {
     display: flex;

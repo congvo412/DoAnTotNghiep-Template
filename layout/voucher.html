@@ -27,7 +27,7 @@
                         <div class="menu-container">
                             <div class="logo-shop">
                                 <a href="../layout/home.html" title="C&T Phone">
-                                    <img src="https://vanphongxanh.vn/wp-content/uploads/2022/03/logo-social.png" alt="">
+                                    <img src="../img/logo.png" alt="">
                                 </a>
                             </div>
                             <form class="form-search">
@@ -177,7 +177,7 @@
     <section class="main-voucher">
         <div class="body-voucher">
             <div class="header-voucher">
-                <a href="../layout/cart.html">
+                <a href="../layout/payment.html">
                     <div class="go-back-voucher">
                         <i class="fas fa-angle-left"></i>
                         <p class="title-back">Trở về</p>
@@ -193,13 +193,20 @@
                             <div class="apply-voucher">
                                     <i class="fas fa-money-check-alt"></i>
                                     <input type="text" placeholder="Mã giảm giá">
-                                    <a href=""><div class="button-apply">Áp dụng</div></a>
+                                    <a href=""><div class="button-apply" onClick="apply_voucher()">Áp dụng</div></a>
                             </div>
-
-                            <!-- <div class="delete-item">
-                                <i class="fas fa-times"></i>
-                            </div> -->
                         </div>
+
+                        <div class="container container-voucher-main">
+                            <div class="title-voucher-info">
+                                   Thông tin đặt hàng
+                            </div>
+                            <p>Người nhận: <span>Võ Chí Công</span></p>
+                            <p>Số Điện Thoại: <span>0396327338</span></p>
+                            <p>Email: <span>congdeptrai@gmail.com</span></p>
+                            <p>Tổng Tiền: <span>100.000.000 ₫</span></p>
+                        </div>
+
                         <div class="container container-payment-info">
                             <div class="content-payment-info">
                                 <p class="label-total">
@@ -210,14 +217,9 @@
                                 </p>
                             </div>
                             <div class="content-order">
-                                <a href="">
+                                <a href="../layout/cart-success.html">
                                     <div class="button-payment">
-                                        <input type="submit" name="" id="" value="Tiếp tục">
-                                    </div>
-                                </a>
-                                <a href="../layout/home.html">
-                                    <div class="button-other">
-                                        Chọn thêm sản phẩm khác
+                                        <input type="submit" name="" id="" value="TIẾP TỤC">
                                     </div>
                                 </a>
                             </div>
@@ -339,4 +341,9 @@
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="../assets/js/main.js"></script>
+<script type="text/javascript">
+    function apply_voucher(){
+        alert("Mã giảm giá không hợp lệ")
+    }
+</script>
 </html>
